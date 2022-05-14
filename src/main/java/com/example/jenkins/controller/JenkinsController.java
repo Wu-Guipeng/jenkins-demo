@@ -12,7 +12,7 @@ public class JenkinsController {
     @GetMapping("/hello")
     private String hello(){
         Jenkins jenkins = new Jenkins();
-        jenkins.setName("wugipeng");
+        jenkins.setName("hello");
         return jenkins.getName();
     }
 }
